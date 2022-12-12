@@ -1,27 +1,37 @@
-# FrontendService
+## Products
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
+![image](https://user-images.githubusercontent.com/81532862/207161803-6d756916-f95d-4930-89e1-f81d81458e35.png)
 
-## Development server
+## Customers
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+![image](https://user-images.githubusercontent.com/81532862/207161932-ce4bcc27-b98b-4aa5-8c74-4314162231bc.png)
 
-## Code scaffolding
+## Customer Bills
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![image](https://user-images.githubusercontent.com/81532862/207161989-c4fcd165-94ea-4865-b156-ef9256b29226.png)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Bill Details
 
-## Running unit tests
+![image](https://user-images.githubusercontent.com/81532862/207162088-cd30be90-0cf4-4d84-b2c8-1df55f734471.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Code
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+#Html code for product component:
 
-## Further help
+![image](https://user-images.githubusercontent.com/81532862/207162717-77cedb44-cb47-4ec3-a96c-e2d92f677640.png)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#The Routing
+
+![image](https://user-images.githubusercontent.com/81532862/207162947-4873e52d-7c52-468e-96d7-316113aa6264.png)
+
+
+#All the services running on the backend:
+
+![image](https://user-images.githubusercontent.com/81532862/207163109-60f3c200-0b90-4370-a2e0-d33ce186cc20.png)
+
+
+
+
+
