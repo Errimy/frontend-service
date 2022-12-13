@@ -28,7 +28,7 @@
           <tbody>
           <tr *ngFor="let pi of billDetails.productItems">
             <td>{{pi.id}}</td>
-            <td>{{pi.name}}</td>
+            <td>{{pi.product.name}}</td>
             <td>{{pi.quantity}}</td>
             <td class="text-end">{{pi.price | number:'.2'}}</td>
             <td class="text-end">{{pi.amount | number:'.2'}}</td>
