@@ -11,15 +11,18 @@ export class BillDetailsComponent implements OnInit{
   billDetails: any;
   billId!: number;
   constructor(private http:HttpClient, private router: Router, private route: ActivatedRoute) {
-    this.billId=route.snapshot.params['billId'];
+    this.billId=route.snapshot.params['id'];
   }
   ngOnInit(): void {
-    this.http.get("http://localhost:8888/BILLING-SERVICE/fullBill/1").subscribe({
+    this.http.get("http://localhost:8888/BILLING-SERVICE/fullBill/"+this.billId).subscribe({
       next :(data)=>{
         this.billDetails=data;
       },
       error : (err)=>{}
     })
+  }
+  getBillDetails(b: any) {
+    this.router.navigateByUrl("/bill-details/"+b.id)
   }
 
 }

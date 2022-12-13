@@ -11,10 +11,12 @@ export class BillsComponent implements OnInit{
   bills: any;
   customerID!: number;
   constructor(private http:HttpClient, private router: Router, private route: ActivatedRoute) {
-    this.customerID=route.snapshot.params['customerID'];
+    this.customerID=this.route.snapshot.params['id'];
+    console.log(this.customerID)
+    //this.customerID=Number(this.route.snapshot.paramMap.get('id'));
   }
   ngOnInit(): void {
-    this.http.get("http://localhost:8888/BILLING-SERVICE/bills/").subscribe({
+    this.http.get("http://localhost:8888/BILLING-SERVICE/bills/search/byCustomerId?customerId="+this.customerID).subscribe({
       next :(data)=>{
         this.bills=data;
       },

@@ -13,10 +13,10 @@ const routes: Routes=[
     path: "customers", component: CustomersComponent
   },
   {
-    path: "bills/:customerId", component: BillsComponent
+    path: "bills/:id", component: BillsComponent
   },
   {
-    path: "bill-details/:billId", component: BillDetailsComponent
+    path: "bill-details/:id", component: BillDetailsComponent
   }
 ];
 
