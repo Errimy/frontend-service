@@ -6,14 +6,18 @@
 
 ![image](https://user-images.githubusercontent.com/81532862/207161932-ce4bcc27-b98b-4aa5-8c74-4314162231bc.png)
 
-## Customer Bills
+## Customer Bills by customerID:
 
-![image](https://user-images.githubusercontent.com/81532862/207161989-c4fcd165-94ea-4865-b156-ef9256b29226.png)
+![image](https://user-images.githubusercontent.com/81532862/207350480-7d476de6-0ab1-41d0-9901-ea27fc8fb161.png)
 
 
-## Bill Details
 
-![image](https://user-images.githubusercontent.com/81532862/207162088-cd30be90-0cf4-4d84-b2c8-1df55f734471.png)
+## Bill Details by billID:
+
+![image](https://user-images.githubusercontent.com/81532862/207350931-597287fa-d881-4a46-b39a-a94307e19283.png)
+
+
+
 
 
 ## Code
