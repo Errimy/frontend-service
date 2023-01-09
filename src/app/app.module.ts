@@ -9,6 +9,9 @@ import { CustomersComponent } from './customers/customers.component';
 import { OrdersComponent } from './orders/orders.component';
 import { BillsComponent } from './bills/bills.component';
 import { BillDetailsComponent } from './bill-details/bill-details.component';
+import { AddProductComponent } from './add-product/add-product.component';
+import { AddCustomerComponent } from './add-customer/add-customer.component';
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -17,12 +20,15 @@ import { BillDetailsComponent } from './bill-details/bill-details.component';
     CustomersComponent,
     OrdersComponent,
     BillsComponent,
-    BillDetailsComponent
+    BillDetailsComponent,
+    AddProductComponent,
+    AddCustomerComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

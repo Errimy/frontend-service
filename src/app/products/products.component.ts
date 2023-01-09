@@ -1,5 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
+import {ProductService} from "../services/product.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-products',
@@ -8,7 +10,7 @@ import {HttpClient} from "@angular/common/http";
 })
 export class ProductsComponent implements OnInit{
   products: any;
-  constructor(private http:HttpClient) {
+  constructor(private http:HttpClient, private productService: ProductService, private router: Router) {
   }
   ngOnInit(): void {
     this.http.get("http://localhost:8888/PRODUCT-SERVICE/products").subscribe({
@@ -19,4 +21,17 @@ export class ProductsComponent implements OnInit{
     })
   }
 
+  handleDeleteProduct(p: any) {
+    let conf= confirm("Are you sure?")
+    if(!conf) return;
+    this.productService.deleteProduct(p.id).subscribe({
+      next : data=>{
+        alert("Product deleted successfully");
+        this.router.navigateByUrl("/products")
+      },
+      error : err=>{
+        console.log(err);
+      }
+    });
+  }
 }

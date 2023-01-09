@@ -2,7 +2,7 @@
   <table class="table" *ngIf="products">
     <thead>
     <tr>
-      <th>Id</th><th>Nom</th><th>Prix</th><th>Quantité</th>
+      <th>Id</th><th>Nom</th><th>Prix</th><th>Quantité</th><th>Actions</th>
     </tr>
     </thead>
     <tbody>
@@ -11,6 +11,9 @@
       <td>{{p.name}}</td>
       <td>{{p.price}}</td>
       <td>{{p.quantity}}</td>
+      <td>
+        <button class="btn btn-danger" (click)="handleDeleteProduct(p)">Supprimer</button>
+      </td>
     </tr>
     </tbody>
   </table>
