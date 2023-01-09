@@ -2,7 +2,7 @@
   <table class="table" *ngIf="customers">
     <thead>
     <tr>
-      <th>Id</th><th>Nom</th><th>Email</th><th>Orders</th>
+      <th>Id</th><th>Nom</th><th>Email</th><th>Orders</th><th>Actions</th>
     </tr>
     </thead>
     <tbody>
@@ -12,8 +12,8 @@
       <td>{{c.email}}</td>
       <td>
         <button class="btn btn-success" (click)="getBills(c)">Orders</button>
-        <button class="btn btn-danger" (click)="handleDeleteCustomer(c)">Delete</button>
       </td>
+      <td><button class="btn btn-danger" (click)="handleDeleteCustomer(c)">Delete</button></td>
     </tr>
     </tbody>
   </table>
