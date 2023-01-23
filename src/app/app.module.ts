@@ -12,6 +12,9 @@ import { BillDetailsComponent } from './bill-details/bill-details.component';
 import { AddProductComponent } from './add-product/add-product.component';
 import { AddCustomerComponent } from './add-customer/add-customer.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import { NgChartsModule } from 'ng2-charts';
+import { DataAnalyticsComponent } from './data-analytics/data-analytics.component';
+
 
 @NgModule({
   declarations: [
@@ -22,13 +25,15 @@ import {ReactiveFormsModule} from "@angular/forms";
     BillsComponent,
     BillDetailsComponent,
     AddProductComponent,
-    AddCustomerComponent
+    AddCustomerComponent,
+    DataAnalyticsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

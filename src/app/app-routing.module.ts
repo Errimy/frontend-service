@@ -6,6 +6,7 @@ import {BillsComponent} from "./bills/bills.component";
 import {BillDetailsComponent} from "./bill-details/bill-details.component";
 import {AddCustomerComponent} from "./add-customer/add-customer.component";
 import {AddProductComponent} from "./add-product/add-product.component";
+import {DataAnalyticsComponent} from "./data-analytics/data-analytics.component";
 
 const routes: Routes=[
   {
@@ -22,6 +23,9 @@ const routes: Routes=[
   },
   {
     path: "bills/:id", component: BillsComponent
+  },
+  {
+    path: "data-analytics", component: DataAnalyticsComponent
   },
   {
     path: "bill-details/:id", component: BillDetailsComponent
