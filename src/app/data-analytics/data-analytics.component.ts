@@ -54,7 +54,7 @@ export class DataAnalyticsComponent implements  OnInit{
     const myPieChart = new Chart("myPieChart", {
       type: 'pie',
       data: {
-        labels: ['Red', 'Orange', 'Yellow', 'Green', 'Blue'],
+        labels: ['Stylo Rouge', 'Blanco', 'Feuilles', 'Crayon', 'Stylo Bleu'],
         datasets: [
           {
             label: 'Dataset 1',
@@ -71,7 +71,7 @@ export class DataAnalyticsComponent implements  OnInit{
           },
           title: {
             display: true,
-            text: 'Chart.js Pie Chart'
+            text: 'Product Sales Pie Chart'
           }
         }
       },
@@ -82,13 +82,13 @@ export class DataAnalyticsComponent implements  OnInit{
       data: {
         labels: ['Week 1', 'Week 2', 'Week 3','Week 4','Week 5','Week 6','Week 7','Week 8'],
         datasets: [{
-          label: 'Stylos Bleu',
+          label: 'Stylo Rouge',
           data: [12, 19, 5, 13, 11, 16, 14, 18],
           borderColor: '#c71717',
           backgroundColor: '#c71717',
         },
           {
-            label: 'Blanco',
+            label: 'Stylo Bleu',
             data: [8, 21, 7, 9 , 13, 13, 14, 10],
             borderColor: '#0e7df1',
             backgroundColor: '#0e7df1',
