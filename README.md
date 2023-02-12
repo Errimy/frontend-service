@@ -26,6 +26,7 @@
 
 
 #Notifications (Add Customer):
+
 ![Notifications (add customer)](https://user-images.githubusercontent.com/81532862/218310010-6a804013-00a8-4357-8910-f6d9007be2ff.png)
 
 
