@@ -1,23 +1,47 @@
 ## Products
 
-![image](https://user-images.githubusercontent.com/81532862/207161803-6d756916-f95d-4930-89e1-f81d81458e35.png)
+#List of products:
+![liste de produit](https://user-images.githubusercontent.com/81532862/218309837-24888df8-4505-4588-ab17-57628e959b0d.png)
+
+#Add Product:
+![add product](https://user-images.githubusercontent.com/81532862/218309853-eb3a516b-66b6-4280-854d-921732646868.png)
+
+## Analytics
+
+![Data Analytics (Chart js) 1](https://user-images.githubusercontent.com/81532862/218309921-2ecd8150-fb6e-42db-87b9-124aa81fbad1.png)
+
+![Data Analytics (Chart js) 2](https://user-images.githubusercontent.com/81532862/218309923-191a746d-74b1-427b-9149-a5de63faea3e.png)
+
+![Data Analytics (Chart js) 3](https://user-images.githubusercontent.com/81532862/218309925-9d534f16-1517-49f8-967f-350a0c07bc05.png)
+
 
 ## Customers
 
-![image](https://user-images.githubusercontent.com/81532862/207161932-ce4bcc27-b98b-4aa5-8c74-4314162231bc.png)
-
-## Customer Bills by customerID:
-
-![image](https://user-images.githubusercontent.com/81532862/207350480-7d476de6-0ab1-41d0-9901-ea27fc8fb161.png)
+#List of Customers:
+![liste de clients](https://user-images.githubusercontent.com/81532862/218309997-4363aeee-a0d0-4ead-a59d-c0a7f363914a.png)
 
 
-
-## Bill Details by billID:
-
-![image](https://user-images.githubusercontent.com/81532862/207363974-a8a580da-fe3d-4efa-88b9-a95a6f297e3c.png)
+#Add Customer:
+![new customer](https://user-images.githubusercontent.com/81532862/218310003-b684b120-6188-4055-aa83-31c6fc8882f3.png)
 
 
+#Notifications (Add Customer):
+![Notifications (add customer)](https://user-images.githubusercontent.com/81532862/218310010-6a804013-00a8-4357-8910-f6d9007be2ff.png)
 
+
+#Notifications (Delete Customer):
+![Notifications (delete customer)](https://user-images.githubusercontent.com/81532862/218310017-fdcbc5a6-3406-44b9-b734-a16f219e2d44.png)
+
+
+# Customer Bills by customerID:
+![liste des commandes de chaque client](https://user-images.githubusercontent.com/81532862/218310028-66a49514-e343-4b3e-b584-f947cb79953d.png)
+
+
+## Bill
+
+#Bill Details:
+
+![les details de chaque commande](https://user-images.githubusercontent.com/81532862/218310060-d47b99c1-2409-4501-a8fa-b378c75b823a.png)
 
 
 ## Code
